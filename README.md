@@ -2,7 +2,7 @@
 Week 1 Challenge for NBS QA Training (Elle Townsend)
 ---
 
-> Notes - User stories time estimations in story points. Numbers used to represent an approcimation of complexity and time needed to complete (e.g. 1 = <1 day, 2 = 1 day, 3 = 2 days, 5 = 3 days, 8 = 4 days, 10 = 1 week).
+> Notes - User stories time estimations are given in story points. Story point numbers have been used to represent an approximation of complexity and time needed to complete (e.g. 1 = <1 day, 2 = 1 day, 3 = 2 days, 5 = 3 days, 8 = 4 days, 10 = 1 week).
 
 ## What Was The Challenge?
 
