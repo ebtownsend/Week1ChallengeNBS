@@ -7,6 +7,7 @@ Definitions of Done:
 - Peer code review passed.
 
 UserStory ID: 024
+Story points: 5
 "As a staff member, 
 I can view all booking on the system, 
 so I can see all customers I should expect for the showing."
@@ -19,6 +20,7 @@ and select a showing,
 then they are presented with all the current bookings in the system for that showing.'"
 
 UserStory ID: 025
+Story points: 5
 "As a staff member, 
 I can create a booking on the system, 
 so I can serve customers who make bookings in person at the cinema."
