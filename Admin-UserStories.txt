@@ -6,130 +6,205 @@ Definitions of Done:
 - Unit / Integration tests passed (if applicable).
 - Peer code review passed.
 
-Epic - Managing Trailers
-
 UserStory ID: 008
+Epic - Managing Trailers
+"As an Admin, I can manage film trailers on the website, so that users can view trailers of films that are being shown at the cinema."
+---
+Acceptance criteria:
+"Given the user is a registered admin on the system, 
+when they log into the admin portal,
+then they are presented with the option to 'manage film trailers'"
+
+"Given the user is a registered admin on the system,
+when they log into the admin portal,
+and select 'manage film trailers',
+then they are presented with the option to 'add film trailers' (009), 
+and the option to 'delete film trailers' (010)".
+
+UserStory ID: 009
 "As an Admin, 
 I can add a film trailer to the website, 
 so that users can view trailers of films that are being shown at the cinema."
 ---
 Acceptance Criteria:
-"Given , 
-when , 
-I can ."
+"Given the admin is on the admin portal,
+and they select a film,
+when they embed a trailer onto the page, 
+then the film trailer is viewable on the film booking page."
 
-UserStory ID: 009
+UserStory ID: 010
 "As an Admin, 
 I can remove a fim trailer from the website, 
 so that users cannot see trailers for film that are not showing at the cinema."
 ---
 Acceptance Criteria:
-"Given , 
-when , 
-then ."
+"Given the admin is on the admin portal,
+and they select a film,
+and the film already has a trailer on the page
+when the trailer is removed from the page, 
+then the trailer no longer appears on the film booking page."
 
+UserStory ID: 011
 Epic - Managing Bookings
+"As an Admin, 
+I can manage ticket bookings on the system, 
+so that all booking information on the system is correct and up to date."
+---
+Acceptance criteria:
+"Given the user is a registered admin on the system, 
+when they log into the admin portal,
+then they are given the option to 'manage all bookings'".
 
-UserStory ID: 010
+"Given the user is a registered admin on the system,
+when they log into the admin portal,
+and select 'manage all bookins',
+then they are presented with the option to 'create booking' (012), 
+and the option to 'update booking' (014), 
+and the option to 'delete booking' (013), 
+and the option to 'view all bookings'(015)".
+
+UserStory ID: 012
 "As an Admin, 
 I can create a ticket booking on the system, 
 so that for customer service I have the ability to create a booking."
 ---
 Acceptance Criteria:
-"Given I am logged into the admin system, 
-when I create a booking, 
+"Given the admin is on the admin portal,
+when they create a booking, 
 then a booking for the chosen film is created and the tickets are booked in the system."
 
-UserStory ID: 011
+UserStory ID: 013
 "As an Admin, 
 I can delete a ticket booking on the system, 
 so that I can delete unnecessary or erronious bookings."
 ---
 Acceptance Criteria:
-"Given there is a booking on the system, 
-when I delete a booking, 
+"Given the admin is on the admin portal, 
+and there is a booking on the system, 
+when they delete a booking, 
 then it is removed from the system."
 
-UserStory ID: 012
+UserStory ID: 014
 "As an Admin, 
 I can update a ticket booking on the system, 
 so that there is no erronious information on the system."
 ---
 Acceptance Criteria:
-"Given there is a booking on the system, 
-when I update information in the booking, 
-then the new information is updated and saved."
-
-UserStory ID: 013
-"As an Admin, 
-I can view all ticket bookings on the system, 
-so that ."
----
-Acceptance Criteria:
-"Given , 
-when , 
-then ."
-
-Epic - Managing film showings
-
-UserStory ID: 014
-"As an Admin, 
-I can create a film showing listing, 
-so that ."
----
-Acceptance Criteria:
-"Given , 
-when , 
-then ."
+"Given the admin is on the admin portal, 
+and there is a booking on the system, 
+when they update information in the booking, 
+then the booking information is updated and the old information no longer appears."
 
 UserStory ID: 015
 "As an Admin, 
-I can delete a film showing listing, 
-so that ."
+I can view all ticket bookings on the system, 
+so that I can see all information on the system."
 ---
 Acceptance Criteria:
-"Given , 
-when , 
-then ."
+"Given the admin is on the admin portal,
+and there are bookings on the system
+when they select 'view all bookings', 
+then all booking information for every film and every showing is presented."
 
 UserStory ID: 016
+Epic - Managing film showings
 "As an Admin, 
-I can update a film showing listing, 
-so that ."
+I can manage film showings on the system, 
+so that all film showing information on the system is correct and up to date."
 ---
-Acceptance Criteria:
-"Given , 
-when , 
-then ."
+Acceptance criteria:
+"Given the user is a registered admin on the system, 
+when they log into the admin portal,
+then they are given the option to 'manage all film showings'".
+
+"Given the user is a registered admin on the system,
+when they log into the admin portal,
+and select 'manage all film showings',
+then they are presented with the option to 'create showing' (017), 
+and the option to 'update showing' (019), 
+and the option to 'delete showing' (018), 
+and the option to 'view all showings'(020)".
 
 UserStory ID: 017
 "As an Admin, 
-I can view all film showing listings, 
-so that ."
+I can create a film showing listing, 
+so that new film listings can be added to the booking system."
 ---
 Acceptance Criteria:
-"Given , 
-when , 
-then ."
-
-Epic - Managing staff accounts
+"Given the admin is on the admin portal,
+when they create a film showing, 
+then they are asked to add showing information"
 
 UserStory ID: 018
 "As an Admin, 
-I can create a staff account on the system, 
-so that ."
+I can delete a film showing listing, 
+so that old film showings are removed from the booking system."
 ---
 Acceptance Criteria:
-"Given , 
-when , 
-then ."
+"Given the admin is on the admin portal, 
+and there is a showing on the system, 
+when they delete a showing, 
+then it is removed from the system."
 
 UserStory ID: 019
 "As an Admin, 
-I can delete a staff account on the system, 
-so that ."
+I can update a film showing listing, 
+so that all showing information is correct and up to date on the system."
 ---
 Acceptance Criteria:
-"Given , 
-when , 
-then ."
+"Given the admin is on the admin portal, 
+and there is a showing on the system, 
+when they update information in the showing, 
+then the showing information is updated and the old information no longer appears."
+
+UserStory ID: 020
+"As an Admin, 
+I can view all film showing listings, 
+so that I can see all information on the system."
+---
+Acceptance Criteria:
+"Given the admin is on the admin portal,
+and there are showings on the system
+when they select 'view all film showins', 
+then all showing information for every film is presented."
+
+UserStory ID: 021
+Epic - Managing staff accounts
+"As an Admin, 
+I can manage all staff accounts on the system, 
+so that all accounts are in use and staff have the correct access rights"
+---
+Acceptance criteria:
+"Given the user is a registered admin on the system, 
+when they log into the admin portal,
+then they are presented with the option to 'manage staff member accounts'".
+
+"Given the user is a registered admin on the system,
+when they log into the admin portal,
+and select 'manage staff member accounts',
+then they are presented with the option to 'add staff member' (022), 
+and the option to 'delete staff member'(023)".
+
+UserStory ID: 022
+"As an Admin, 
+I can create a staff account on the system, 
+so that staff can view necessary information on the system and create bookings."
+---
+Acceptance Criteria:
+"Given the admin is on the admin portal,
+and they have the employee information of the new staff member,
+when they select 'add staff member',
+and input all the necessary information,
+then a new staff member account is created for that person."
+
+UserStory ID: 023
+"As an Admin, 
+I can delete a staff account on the system, 
+so that I can remove old / unused staff accounts from the system."
+---
+Acceptance Criteria:
+"Given the admin is on the admin portal,
+and there is an account on the system that requires deleting,
+when they select 'delete staff member',
+and select the required staff account,
+then the selected staff account is deleted and removed from the system."
