@@ -6,15 +6,130 @@ Definitions of Done:
 - Unit / Integration tests passed (if applicable).
 - Peer code review passed.
 
-Epic - 
-
+Epic - Managing Trailers
 
 UserStory ID: 008
-"As a User, 
-I can , 
-so that ."
+"As an Admin, 
+I can add a film trailer to the website, 
+so that users can view trailers of films that are being shown at the cinema."
 ---
 Acceptance Criteria:
 "Given , 
 when , 
 I can ."
+
+UserStory ID: 009
+"As an Admin, 
+I can remove a fim trailer from the website, 
+so that users cannot see trailers for film that are not showing at the cinema."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
+
+Epic - Managing Bookings
+
+UserStory ID: 010
+"As an Admin, 
+I can create a ticket booking on the system, 
+so that for customer service I have the ability to create a booking."
+---
+Acceptance Criteria:
+"Given I am logged into the admin system, 
+when I create a booking, 
+then a booking for the chosen film is created and the tickets are booked in the system."
+
+UserStory ID: 011
+"As an Admin, 
+I can delete a ticket booking on the system, 
+so that I can delete unnecessary or erronious bookings."
+---
+Acceptance Criteria:
+"Given there is a booking on the system, 
+when I delete a booking, 
+then it is removed from the system."
+
+UserStory ID: 012
+"As an Admin, 
+I can update a ticket booking on the system, 
+so that there is no erronious information on the system."
+---
+Acceptance Criteria:
+"Given there is a booking on the system, 
+when I update information in the booking, 
+then the new information is updated and saved."
+
+UserStory ID: 013
+"As an Admin, 
+I can view all ticket bookings on the system, 
+so that ."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
+
+Epic - Managing film showings
+
+UserStory ID: 014
+"As an Admin, 
+I can create a film showing listing, 
+so that ."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
+
+UserStory ID: 015
+"As an Admin, 
+I can delete a film showing listing, 
+so that ."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
+
+UserStory ID: 016
+"As an Admin, 
+I can update a film showing listing, 
+so that ."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
+
+UserStory ID: 017
+"As an Admin, 
+I can view all film showing listings, 
+so that ."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
+
+Epic - Managing staff accounts
+
+UserStory ID: 018
+"As an Admin, 
+I can create a staff account on the system, 
+so that ."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
+
+UserStory ID: 019
+"As an Admin, 
+I can delete a staff account on the system, 
+so that ."
+---
+Acceptance Criteria:
+"Given , 
+when , 
+then ."
