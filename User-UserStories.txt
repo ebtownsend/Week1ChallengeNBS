@@ -23,6 +23,7 @@ and click 'book',
 then a booking confirmation email is sent to their email."
 
 UserStory ID: 001
+Story points: 1
 "As a User, 
 I can choose which film I want to book tickets for at the cinema, 
 so that I can go to see that film in the cinema."
@@ -33,7 +34,8 @@ when they select a film from list of available films,
 then they are asked to select a showing time"
 
 UserStory ID: 002
-"As a User, 
+"As a User,
+Story points: 2
 I can choose how many tickets I want to book, 
 so that I can bring my friends and/or family to the cinema with me and book tickets for them."
 ---
@@ -45,6 +47,7 @@ then they are assigned those tickets (as long as their is enough available) and 
 
 UserStory ID: 003
 "As a User, 
+Story points: 1
 I can choose which type of ticket I want to book, 
 so that I can book tickets for my children, elderly family, or someone requiring the use of a wheelchair."
 ---
@@ -55,6 +58,7 @@ then they can select which type (Adult, Child - only on films with age ratings a
 
 UserStory ID: 004
 "As a User, 
+Story points: 3
 I can select which seasts (from those available) I want when buying my tickets 
 so that I can choose the best seats for me (and anyone accompanying me)."
 ---
@@ -66,6 +70,7 @@ then they are asked the quantity of tickets of each type they require."
  
 UserStory ID: 005
 "As a User, 
+Story points: 1
 I can choose which cinema location I want to go to, 
 so that I can see which films are showing at my local cinema."
 ---
@@ -75,7 +80,8 @@ when they choose a specific cinema location,
 then they are presented with information on what films are showing at that location only."
 
 UserStory ID: 006
-"As a User, 
+"As a User,
+Story points: 5
 I can choose which showing (time) of the film I want to see, 
 so that I can plan to go the the cinema at a convenient time for me."
 ---
