@@ -69,6 +69,9 @@ Acceptance Criteria:
 when I choose which film I want to book, 
 then I am presented with a choice of avaiabe showing times to book from."
 
+Epic - Trailers
+These features should allow users (e.g Customers) to view film trailers on the website. 
+
 UserStory ID: 007
 "As a User, 
 I can view trailers for films on the wesbite, 
