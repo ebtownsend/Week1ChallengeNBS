@@ -1,1 +1,35 @@
+Perspective - Staff
 
+Definitions of Done:
+- Meets all accepttance criteria.
+- Pass functional tests.
+- Unit / Integration tests passed (if applicable).
+- Peer code review passed.
+
+UserStory ID: 024
+"As a staff member, 
+I can view all booking on the system, 
+so I can see all customers I should expect for the showing."
+---
+Acceptance criteria:
+"Given the user is a registered staff member on the system, 
+when they log into the portal from their staff account,
+and select a film, 
+and select a showing,
+then they are presented with all the current bookings in the system for that showing.'"
+
+UserStory ID: 025
+"As a staff member, 
+I can create a booking on the system, 
+so I can serve customers who make bookings in person at the cinema."
+---
+Acceptance criteria:
+"Given the user is a registered staff member on the system, 
+when they log into the portal from their staff account,
+and select a film, 
+and select a showing,
+and select ticket types & amounts, 
+and enter customer details, 
+and ask customer for payment,
+and confirm booking
+then they are presented with booking information for the customer and can print tickets.'"
