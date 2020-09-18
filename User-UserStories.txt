@@ -6,8 +6,21 @@ Definitions of Done:
 - Unit / Integration tests passed (if applicable).
 - Peer code review passed.
 
+UserStory ID: 000
 Epic - Ticket Booking
-These features should allow users (e.g Customers) to book tickets for film showings at the Cinema. 
+"As a user, I can make a booking, so that I can see a film at the cinema."
+---
+Acceptance Criteria:
+"Given the user is on the booking page, 
+when they select a cinema location (005),
+and select a film (001), 
+and select a showing (006), 
+and select ticket types with amounts (002 & 003),
+and select seats (004),
+and enter their contact details,
+and enter their payment details, 
+and click 'book',
+then a booking confirmation email is sent to their email."
 
 UserStory ID: 001
 "As a User, 
@@ -15,9 +28,9 @@ I can choose which film I want to book tickets for at the cinema,
 so that I can go to see that film in the cinema."
 ---
 Acceptance Criteria:
-"Given I am accessing the booking website online, 
-when I go on to the website, 
-I can choose from a list of films available to book. "
+"Given the user is on the booking page, 
+when they select a film from list of available films, 
+then they are asked to select a showing time"
 
 UserStory ID: 002
 "As a User, 
@@ -25,9 +38,10 @@ I can choose how many tickets I want to book,
 so that I can bring my friends and/or family to the cinema with me and book tickets for them."
 ---
 Acceptance Criteria:
-"Given I have chosen a film and there are tickets left available to book, 
-when I choose to book my tickets, 
-then I can book as many tickets as I want (but only as many as there are avaibale tickets left)."
+"Given the user has chosen a film 
+and there are tickets left available to book for the chosen film, 
+when they select the number of tickets they want, 
+then they are assigned those tickets (as long as their is enough available) and are asked to select seats."
 
 UserStory ID: 003
 "As a User, 
@@ -35,9 +49,9 @@ I can choose which type of ticket I want to book,
 so that I can book tickets for my children, elderly family, or someone requiring the use of a wheelchair."
 ---
 Acceptance Criteria:
-"Given I have chosen a film and there are tickets left available to book, 
-when I choose to book my tickets, 
-then I can select which type (Adult, Child - only on films with age ratings allowing for child viewing, Concession, Wheelchair access) of tickets I want to book."
+"Given the user have seleted a location, film and showing time, 
+when they choose the number of tickets, 
+then they can select which type (Adult, Child - only on films with age ratings allowing for child viewing, Concession, Wheelchair access) of tickets they want to book."
 
 UserStory ID: 004
 "As a User, 
@@ -45,9 +59,10 @@ I can select which seasts (from those available) I want when buying my tickets
 so that I can choose the best seats for me (and anyone accompanying me)."
 ---
 Acceptance Criteria:
-"Given I have selected the film I want to see, and there are still tickets and seats available for that showing, 
-When I book the required number and type of tickets I want, 
-then I can choose (from those available) which specific seats I want to sit at in the screen room."
+"Given the user has selected the user have seleted a location, film and showing time
+and tikcets are still available for that showing,
+When they select the type of tickets they want to book, 
+then they are asked the quantity of tickets of each type they require."
  
 UserStory ID: 005
 "As a User, 
@@ -55,9 +70,9 @@ I can choose which cinema location I want to go to,
 so that I can see which films are showing at my local cinema."
 ---
 Acceptance Criteria:
-"Given I am on the ticket booking site, 
-when I choose a specific cinema location, 
-then I am presented with information on what films are showing at that location only."
+"Given the user is on the booking page, 
+when they choose a specific cinema location, 
+then they are presented with information on what films are showing at that location only."
 
 UserStory ID: 006
 "As a User, 
@@ -65,19 +80,16 @@ I can choose which showing (time) of the film I want to see,
 so that I can plan to go the the cinema at a convenient time for me."
 ---
 Acceptance Criteria:
-"Given I have chosen which location and there are films available to view, 
-when I choose which film I want to book, 
-then I am presented with a choice of avaiabe showing times to book from."
-
-Epic - Trailers
-These features should allow users (e.g Customers) to view film trailers on the website. 
+"Given the user has chosen which location and 
+there are films available to view at that location, 
+when they confirm which film they want to book, 
+then they are presented with a choice of avaiabe showing times for that film at that location."
 
 UserStory ID: 007
-"As a User, 
-I can view trailers for films on the wesbite, 
-so that I can see what films are showing / coming soon to the cinema."
+Epic - Trailers
+"As a user, I can make watch film trailers on the website, so that I can see what films are showing / coming soon to the cinema."
 ---
 Acceptance Criteria:
-"Given I am on the cinema booking wesbite, 
-when I choose a film I want to see, 
-then I can view the film trailer on the website."
+"Given the user is on the booking page, 
+when they select a film,
+then the trailer for that film is displayed on the page."
